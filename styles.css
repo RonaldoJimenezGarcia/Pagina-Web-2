@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
 *{
     margin: 0;
     padding: 0;
@@ -44,4 +48,46 @@ h1{
     font-size: 46px;
     text-align: center;
     height: 160px;
+}
+#seccion2 p{
+    font-size: 31px;
+    text-align: center;
+    height: 280px;
+}
+.btn-register{
+    text-align: center;
+    margin-bottom: 141px;
+}
+.btn-register a{
+    width: 400px;
+    height: 86px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: var(--Violet);
+    background-color: #fff;
+    display: inline-block;
+    padding: 22px;
+    text-decoration: none;
+}
+.btn-register a:hover{
+    background-color: var(--SoftMagenta);
+    color: #fff;
+}
+.social-container{
+    text-align: center;
+}
+.redes a{
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 30px;
+    padding-top: 13px;
+}
+.redes{
+    width: 208px;
+    display: inline-flex;
+    justify-content: space-between;
 }
